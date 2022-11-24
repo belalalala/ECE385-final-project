@@ -1,1 +1,3 @@
 # ECE385-final-project
+* For our final project, we designed and implemented the game Stickman Badminton based on SystemVerilog. This is a classic game that can be played in several modes supporting multiple players and we built and constructed our design according to the original game.
+* Our game is built upon the ball system from lab 8 with a modified NIOS II processor for the FPGA board connection and EZ-OTG chip for external keyboard and mouse. The system contains other main units including central routines written in SystemVerilog receiving VGA control signals and the VGA color mapper for the monitor display. In Quartus, we established the logics like character movements, racket swinging, court setup, game logic, and game mode.
